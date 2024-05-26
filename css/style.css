@@ -1,0 +1,1471 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.colour-palette {
+  color: #353432;  /* text */
+  color: #a2a3a2; /* footer text */
+  color: #89CCE5; /* social media container */
+  color: #D6F2FD; /* Brand Blue */
+  color: #D8659F;  /* Brand Pink */
+  color: #ffffff;
+  color: #F3EFCA; /* vanilla */
+  color: #FDD769; /* mango */
+  color: #A4D2F3; /* coconut */
+  color: #DE5F5F; /* Raspbery */
+  color: #CFB091; /* chocolate */
+  color: #EBBC79; /* salted caramel */
+  color: #A0E0B7; /* mint */
+  color: #FDF57F; /* lemon */
+  color: #FDCC79; /* honey comb*/
+  color: #E78C5D; /* Ginger Spice*/
+  color: #FDBCD1; /* Strawberry*/
+  color: #9F96FF; /* Bubble Blueberry*/
+  color: #FBE9CF; /* Banana*/
+}
+html {
+  scrollbar-color: #A4D2F3 #FFFFFF;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+/* NAV-BAR */
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.logo {
+  width: 6vw;
+  height: 9vh;
+  margin: 0vh 0vw 0vh 28vw;
+  float: left;
+  background-image: url(..//img/index-img/logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: white;
+}
+.logo:hover {
+  transform: scale(1.01);
+}
+nav {
+  width: 42vw;
+  height: 5vh;
+  background-color: white;
+  margin-top: 2.5vh;
+  margin-right: 24vw;
+  float: right;
+  overflow-y: hidden;
+}
+ul li {
+  float: left;
+  margin: 1vh 2vw;
+}
+ul li a {
+  font-size: 1.1em;
+  color: #353432;
+  text-decoration: none;
+  font-family: noto-sans-light;
+}
+a:hover {
+  color: #d8659f;
+}
+/* index cta container */
+.cta-container-on-top {
+  width: 100vw;
+  height: 50vh;
+  background-color: goldenrod;
+}
+/* cta image left */
+.cta-subcontainer-left {
+  width: 25vw;
+  height: 50vh;
+  float: left;
+  background-image: url(../img/index-img/img-1.jpg);
+  background-size: cover;
+}
+/* cta text middle */
+.cta-subcontainer-middle {
+  width: 25vw;
+  height: 50vh;
+  background-color: #FDBCD1;
+  float: left;
+}
+.cta-subcontainer-middle-text-container {
+  width: 25vw;
+  height: 40vh;
+  background-color: #fdbcd1;
+  margin: 4.5vh auto;
+}
+.cta-subcontainer-middle p {
+  width: 15vw;
+  height: 16vh;
+  font-family: noto-sans-regular;
+  font-size: 1.3em;
+  line-height: 4vh;
+  font-weight: 500;
+  color: white;
+  background-color: #FDBCD1;
+  margin-top: 15vh;
+  text-align: center;
+  justify-content: center;
+}
+/* cta image right */
+.cta-subcontainer-right {
+  width: 50vw;
+  height: 50vh;
+  float: right;
+  background-image: url(..//img/index-img/cta.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* middle container */
+.middle-container {
+  width: 100vw;
+  height: 35vh;
+  background-color: white;
+}
+/* middle container left (image) */
+.middle-subcontainer-left {
+  width: 37.5vw;
+  height: 35vh;
+  float: left;
+  background-image: url(..//img/index-img/img-2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* middle container middle (image) */
+.middle-subcontainer-middle {
+  width: 25vw;
+  height: 35vh;
+  float: left;
+  background-image: url(..//img/index-img/img-3.jpg);
+  background-size: cover;
+}
+/* middle container right (text) */
+.middle-subcontainer-right {
+  width: 37.5vw;
+  height: 35vh;
+  background-color: #FDBCD1;
+  float: right;
+}
+.middle-subcontainer-right-text p {
+  width: 30vw;
+  height: 15vh;
+  font-family: noto-sans-regular;
+  font-size: 1.3em;
+  padding: 1vh 2vw;
+  line-height: 4vh;
+  font-weight: 500;
+  color: white;
+  background-color: #FDBCD1;
+  margin-top: 11vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+}
+/* bottom container */
+.bottom-container {
+  width: 100vw;
+  height: 60vh;
+  background-color: white;
+}
+/* bottom container left (text)  */
+.bottom-subcontainer-left-A {
+  width: 60vw;
+  height: 60vh;
+  background-color: white;
+  float: left;
+}
+.bottom-subcontainer-left-A p {
+  height: 16vh;
+  line-height: 4vh;
+  font-weight: 500;
+  margin-top: 2vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bottom-subcontainer-left-B p {
+  margin: auto;
+}
+/* h1 and p */
+h1 {
+  width: 28vw;
+  height: 12vh;
+  font-family: noto-sans-regular;
+  font-size: 5em;
+  color: #353432;
+  background-color: #ffffff;
+  margin-top: 3vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+p {
+  width: 35vw;
+  height: 8vh;
+  font-family: noto-sans-regular;
+  font-size: 1.3em;
+  margin: 5vh auto;
+  text-align: center;
+  background-color: #ffffff;
+}
+/* bottom container right image */
+.bottom-subcontainer-right {
+  width: 40vw;
+  height: 60vh;
+  float: right;
+  background-image: url(..//img/index-img/img-4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* secondary container */
+.secondary-container {
+  width: 100vw;
+  height: 40vh;
+  background-color: #d6f2fd;
+}
+/* social media icons */
+.follow-us {
+  width: 23vw;
+  height: 4vh;
+  margin-top: 14vh;
+  margin-right: auto;
+  margin-bottom: 1vh;
+  margin-left: auto;
+}
+.follow-us-word-bold {
+  color: #353432;
+  font-weight: bolder;
+}
+.follow-us p {
+  width: 19vw;
+  height: 3vh;
+  background-color: #d6f2fd;
+  font-size: 0.9em;
+  margin: 0 auto;
+}
+.social-media-icons-container {
+  width: 12vw;
+  height: 3vh;
+  background-color: #d6f2fd;
+  margin: 0vh auto;
+}
+.tik-tok {
+  width: 3vw;
+  height: 3vh;
+  float: left;
+  background-image: url(..//img/social-media-icons/tik-tok.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.facebook {
+  width: 3vw;
+  height: 3vh;
+  float: left;
+  margin-left: 1.5vw;
+  background-image: url(..//img/social-media-icons/facebook.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.instagram {
+  width: 3vw;
+  height: 3vh;
+  float: right;
+  background-image: url(..//img/social-media-icons/instagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* footer container */
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: #ffffff;
+}
+.footer-container {
+  width: 61vw;
+  height: 4vh;
+  background-color: #ffffff;
+  margin: 5vh auto;
+}
+.footer-container ul li a {
+  color: #a2a3a2;
+  font-family: noto-sans-light;
+  font-size: 0.8em;
+}
+.pipe {
+  color: #a2a3a2;
+}
+
+/* FLAVOURS SECTION */
+
+/* flavour section cta */
+.flavours-cta-img {
+  width: 100vw;
+  height: 80vh;
+  background-color: #ffffff;
+  background-image: url(../img/flavours-section/cta-flavours-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* cta quote */
+.flavours-cta-text {
+  width: 52vw;
+  height: 7vh;
+  background-color: transparent;
+  margin: 22vh auto;
+  font-size: 1.9em; 
+}
+.flavours-cta-text p {
+  width: 50vw;
+  height: 6vh;
+  background-color: transparent;
+  margin: 0 auto;
+  font-family: noto-sans-regular;
+  font-weight: 600;
+  color:#ffffff  
+}
+/* Itroduction text */
+.introduction-container{
+  background-color: #ffffff;
+  width: 100vw;
+  height: 10vh;
+  margin-top: 6.5vh;
+}
+.introduction-container-text p {
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.3em;
+  line-height: 4vh;
+  font-weight: 500;
+  background-color: #ffffff;
+  margin: 0vh auto;
+}
+.top-flavours {
+  background-color: #FFFFFF;
+  width: 100vw;
+  height: 11vh;
+}
+.top-flavours p{
+  background-color: #FFFFFF;
+  height: 3vh;
+  width: 10vw;
+  margin: 4vh auto;
+  color: #353432;
+  font-weight: 600;
+
+}
+/* flavours grid */
+/* Flavours First row */
+.flavour-container-row-1 {
+  width: 100vw;
+  height: 47vh;
+  background-color: #ffffff;
+  margin-top: 10vh; 
+}
+/* vanilla */
+.flavour-subcontainer-1 {
+  width: 33.3vw;
+  height: 46vh;
+  background-color: #F3EFCA;
+  margin-top: 1vh;
+  margin-right: 0.4vw;
+  float: left;
+}
+.image-container-1 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/vanilla.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-1 {
+  width: 10vw;
+  height: 5vh;
+  background-color: #F3EFCA;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 0vh; 
+  margin-left: 11.6vw;
+}
+.flavour-name-1 p {
+  color: #353432;
+  background-color: #F3EFCA;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 5vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-1 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #F3EFCA;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 11.7vw;
+  margin-bottom: 0vh;
+}
+/* Lemon */
+.flavour-subcontainer-2 {
+  width: 33vw;
+  height: 46vh;
+  background-color: #FDF57F;
+  float: left;
+  margin-top: 1vh;
+  margin-right: 0.4vw;
+}
+.image-container-2 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Lemon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-2 {
+  width: 10vw;
+  height: 5vh;
+  background-color: #FDF57F;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 0vh;
+  margin-left: 12vw;
+}
+.flavour-name-2 p {
+  color: #353432;
+  background-color: #FDF57F;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 5vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-2 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #FDF57F;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 12vw;
+  margin-bottom: 0vh;
+}
+/* Mango */
+.flavour-subcontainer-3 {
+  width: 32vw;
+  height: 46vh;
+  background-color: #FDD769;
+  float: left;
+  margin-top: 1vh;
+}
+.image-container-3 {
+  width: 22vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Mango.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-3 {
+  width: 10vw;
+  height: 5vh;
+  background-color: #FDD769;
+  margin-top: 4vh;
+  margin-bottom: 0vh;
+  margin-left: 12.5vw;
+}
+.flavour-name-3 p {
+  color: #353432;
+  background-color: #FDD769;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 6vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-3 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #FDD769;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 12.5vw;
+  margin-bottom: 0vh;
+}
+/* Flavours Second row */
+.flavour-container-row-2 {
+  width: 100vw;
+  height: 46vh;
+  background-color: #ffffff;
+  margin-top: 0.7vh;
+}
+/* Chocolate */
+.flavour-subcontainer-4 {
+  width: 33.3vw;                                                 
+  height: 46vh;
+  background-color: #CFB091;
+  margin-right: 0.4vw;
+  float: left;
+}
+.image-container-4 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Chocolate.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-4 {
+  width: 7vw;
+  height: 5vh;
+  background-color: #CFB091;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 0vh; 
+  margin-left: 13.4vw;
+}
+.flavour-name-4 p {
+  color: #353432;
+  background-color: #CFB091;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 7vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-4 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #CFB091;
+  width: 7vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 13.4vw;
+  margin-bottom: 0vh;
+}
+/* Salted Caramel */
+.flavour-subcontainer-5 {
+  width: 33vw;
+  height: 46vh;
+  background-color: #EBBC79;
+  float: left;
+  margin-right: 0.4vw;
+}
+.image-container-5 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Salted-Caramel.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-5 {
+  width: 12vw;
+  height: 5vh;
+  margin-top: 4vh;
+  margin-left: 11vw;
+}
+.flavour-name-5 p {
+  color: #353432;
+  background-color: #EBBC79;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 12vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-5 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #EBBC79;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 12vw;
+  margin-bottom: 0vh;
+}
+/* Honeycomb */
+.flavour-subcontainer-6 {
+  width: 32vw;
+  height: 46vh;
+  background-color: #FDCC79;
+  float: left;
+}
+.image-container-6 {
+  width: 22vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Honeycomb.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-6 {
+  width: 11vw;
+  height: 5vh;
+  background-color: #FDCC79;
+  margin-top: 4vh;
+  margin-bottom: 0vh;
+  margin-left: 12vw;
+}
+.flavour-name-6 p {
+  color: #353432;
+  background-color: #FDCC79;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 11vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-6 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #FDCC79;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 12vw;
+  margin-bottom: 0vh;
+}
+/* Flavours Third row */
+.flavour-container-row-3 {
+  width: 100vw;
+  height: 46vh;
+  background-color: #ffffff;
+  margin-top: 0.7vh;
+}
+/* Raspberry */
+.flavour-subcontainer-7 {
+  width: 33.3vw;                                                 
+  height: 46vh;
+  background-color: #DE5F5F;
+  margin-right: 0.4vw;
+  float: left;
+}
+.image-container-7 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Raspberry.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-7 {
+  width: 10vw;
+  height: 5vh;
+  background-color: #DE5F5F;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 0vh; 
+  margin-left: 12vw;
+}
+.flavour-name-7 p {
+  color: #353432;
+  background-color: #DE5F5F;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 7vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-7 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #DE5F5F;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 12vw;
+  margin-bottom: 0vh;
+}
+/* Mint */
+.flavour-subcontainer-8 {
+  width: 33vw;
+  height: 46vh;
+  background-color: #A0E0B7;
+  float: left;
+  margin-right: 0.4vw;
+}
+.image-container-8 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Mint.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-8 {
+  width: 10vw;
+  height: 5vh;
+  background-color: #A0E0B7;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 0vh;
+  margin-left: 11.9vw;
+}
+.flavour-name-8 p {
+  color: #353432;
+  background-color: #A0E0B7;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 7vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-8 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #A0E0B7;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 11.9vw;
+  margin-bottom: 0vh;
+}
+/* Ginger Spice */
+.flavour-subcontainer-9 {
+  width: 32vw;
+  height: 46vh;
+  background-color: #E78C5D;
+  float: left;
+}
+.image-container-9 {
+  width: 22vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Ginger-spice.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-9 {
+  width: 11vw;
+  height: 5vh;
+  background-color: #E78C5D;
+  margin-top: 4vh;
+  margin-bottom: 0vh;
+  margin-left: 11.5vw;
+}
+.flavour-name-9 p {
+  color: #353432;
+  background-color: #E78C5D;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 11vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-9 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #E78C5D;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 11.5vw;
+  margin-bottom: 0vh;
+}
+/* Flavours Fourth row */
+.flavour-container-row-4 {
+  width: 101vw;
+  height: 46vh;
+  background-color: #ffffff;
+  margin-top: 0.7vh;
+  margin-bottom: 0.7vh;
+}
+/* Coconut */
+.flavour-subcontainer-10 {
+  width: 33.3vw;                                                 
+  height: 46vh;
+  background-color: #A4D2F3;
+  margin-right: 0.4vw;
+  float: left;
+}
+.image-container-10 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Coconut.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flavour-name-10 {
+  width: 10vw;
+  height: 5vh;
+  background-color: #A4D2F3;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 0vh; 
+  margin-left: auto;
+}
+.flavour-name-10 p {
+  color: #353432;
+  background-color: #A4D2F3;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 7vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-10 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #A4D2F3;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0vh;
+}
+/* Sweet Pink Strawberry */
+.flavour-subcontainer-11 {
+  width: 33.3vw;
+  height: 46vh;
+  background-color: #FDBCD1;
+  float: left;
+  margin-right: 0.4vw;
+  border: 2px solid #89cce5;
+}
+.image-container-11 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/strawberry.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-11 {
+  width: 17vw;
+  height: 5vh;
+  background-color: #FDBCD1;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 0vh;
+  margin-left: 8.5vw;
+}
+.flavour-name-11 p {
+  color: #353432;
+  background-color: #FDBCD1;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 16vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-11 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #FDBCD1;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 11.9vw;
+  margin-bottom: 0vh;
+}
+/* Bubble Blueberry */
+.flavour-subcontainer-12 {
+  width: 33vw;
+  height: 46vh;
+  background-color: #9F96FF;
+  margin-right: 0.4vw;
+  float: left;
+  border: 2px solid #89cce5;
+}
+.image-container-12 {
+  width: 22vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Blueberry.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.5vw;
+}
+.flavour-name-12 {
+  width: 15vw;
+  height: 5vh;
+  background-color: #9F96FF;
+  margin-top: 4vh;
+  margin-bottom: 0vh;
+  margin-left: 10vw;
+}
+.flavour-name-12 p {
+  color: #353432;
+  background-color: #9F96FF;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 13vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-12 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #9F96FF;
+  width: 10vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 12vw;
+  margin-bottom: 0vh;
+}
+/* Flavours Fifth row */
+.flavour-container-row-5 {
+  width: 100vw;
+  height: 47vh;
+  background-color: #ffffff;
+}
+
+/* Sunny Banana */
+.flavour-subcontainer-13 {
+  width: 32vw;
+  height: 46vh;
+  background-color: #FBE9CF;
+  float: left;
+  border: 2px solid #89cce5;
+}
+.image-container-13 {
+  width: 15vw;
+  height: 28vh;
+  background-image: url(../img/flavours-section/Sunny-Banana.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 1vh;
+  margin-left: 9.6vw;
+}
+.flavour-name-13 {
+  width: 13vw;
+  height: 3vh;
+  background-color: #FBE9CF;
+  margin-top: 4vh;
+  margin-right: auto;
+  margin-bottom: 2vh; 
+  margin-left: 10.5vw;
+}
+.flavour-name-13 p {
+  color: #353432;
+  background-color: #FBE9CF;
+  font-family: noto-sans-regular;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 12vw;
+  height: 3vh;
+  margin: 0 auto;
+}
+.flavour-price-13 p{
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #FBE9CF;
+  width: 13vw;
+  height: 3vh;
+  margin-top: 2vh;
+  margin-left: 10.5vw;
+  margin-bottom: 0vh;
+}
+/* flavour-bottom-left text */
+.flavour-bottom-left-text {
+  width: 66vw;
+  height: 46vh;
+  background-color: #ffffff;
+  float: left;
+}
+.flavour-bottom-left-text p{
+  background-color: #ffffff;
+  width: 40vw;
+  height: 16vh;
+  margin: 15vh auto;
+  font-family: noto-sans-regular;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 4vh;
+}
+/* Hovers (strawberry, blueberry, banana) */
+/* Strawberry */
+.flavour-container-row-4 a .flavour-subcontainer-11 .flavour-name-11 p:hover {
+  border-bottom: 1px solid #353432;
+}
+/* blueberrry */
+.flavour-container-row-4 a .flavour-subcontainer-12 .flavour-name-12 p:hover {
+  border-bottom: 1px solid #353432;
+}
+/* Banana */
+.flavour-container-row-5 a .flavour-subcontainer-13 .flavour-name-13 p:hover {
+  border-bottom: 1px solid #353432;
+}
+/* ABOUT US SECTION */
+
+/* CTA img about us */
+.cta-about-us-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  background-image: url(../img/about-us-section/cta-about-us.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 0vh;
+  margin-bottom: 8vh;
+}
+.about-us-img-heading {
+  width: 20vw;
+  height: 10vh;
+  background-color: transparent;
+  margin: 14vh auto;
+  font-size: 1.9em;
+}
+.about-us-img-heading p {
+  width: 15vw;
+  height: 10vh;
+  background-color: transparent;
+  margin: 0 auto;
+  font-family: noto-sans-regular;
+  font-weight: 600;
+  color: #ffffff  
+}
+.intro {
+  color: #353432;
+  font-size: 1.3em;
+  line-height: 4vh;
+  font-weight: 500;
+  text-align: center;
+  height: fit-content;
+  margin-bottom: 5vh;
+}
+.mission-img-container {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(../img/about-us-section/mision.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+.vision-img-container {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(../img/about-us-section/vision.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+.values-img-container {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(../img/about-us-section/values.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+}
+.ourteam-img-container {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(../img/about-us-section/ourteam.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 8vh;
+  margin-bottom: 2vh;
+}
+
+/* WHERE TO FIND SECTION */
+
+.where-to-find-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fdbcd1;
+  margin-bottom: 0.6vh;
+}
+h2 {
+  width: 18vw;
+  height: 6vh;
+  font-family: noto-sans-regular;
+  font-size: 2.3em;
+  color: #FDF57F; 
+  background-color: #fdbcd1;
+  margin-top: 6vh;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+iframe {
+  width: 100vw;
+  height: 50vh;
+  margin: 6vh auto;
+  text-align: center;
+}
+
+/* CONTACT SECTION */
+
+.contact-us-background {
+  background-image: url(../img/contact-section/contact-section-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 140vh;
+  margin-bottom: 0.6vh;
+}
+h3 {
+  width: 25vw;
+  height: 6vh;
+  color: #FDF57F;
+  margin-top: 10vh;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: noto-sans-regular;
+  font-weight: 600;
+  font-size: 2.3em;
+  text-align: center;
+}
+h4 {
+  width: 25vw;
+  height: 3vh;
+  margin-top: 1vh;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #ffffff;
+  font-family: noto-sans-regular;
+  font-weight: 500;
+  font-size: 1.3em;
+}
+.contactemail {
+  width: 25vw;
+  height: 12vh;
+  margin: 6vh auto;
+  text-align: center;
+}
+img {
+  width: 3.5vw;
+  display: block;
+  margin-top: 0vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2vh;
+}
+.contactemail a {
+  color: #353432;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-family: noto-sans-regular;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+.callus{
+  width: 25vw;
+  height: 3vh;
+  background-color: transparent;
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+  margin: 0 auto ;
+}
+.address {
+  width: 25vw;
+  height: 3vh;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: noto-sans-regular;
+  font-size: 0.9em;
+  font-weight: 500;
+  text-align: center;
+  margin: 2vh auto ;
+}
+form {
+  background-color: transparent;
+  width: 30vw;
+  height: 38vh;
+  margin: 0 auto;
+}
+input {
+  width: 25vw;
+  height: 5vh;
+  display: block;
+  margin: 1.5vh auto;
+  background-color: #FDF57F;
+  border: none;
+}
+::placeholder {
+  font-family: noto-sans-regular;
+  font-size: 1.1em;
+  padding-left: 1em;
+}
+textarea {
+  width: 25vw;
+  height: 17vh;
+  margin: 0 auto;
+  display: block;
+  padding-top: 1em;
+  background-color: #FDF57F;
+  border: none;
+}
+button {
+  width: 10vw;
+  height: 5vh;
+  font-family: noto-sans-regular;
+  font-size: 1.4em;
+  font-weight: 800;
+  background-color: #353432;
+  color: #ffffff;
+  margin-top: 2vh;
+  margin-left: 45vw; 
+}
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+button a:hover{
+  color: #ffffff;
+}
+
+/* SPECIAL FLAVOURS SECTION */
+
+.second-header {
+  background-color: #FFFFFF;
+  margin-top: 0.2vh;
+  height: 5vh;
+  box-shadow: none;
+  border-bottom: 0.5px solid #d6f2fd;
+}
+.second-nav {
+  background-color: #FFFFFF;
+  margin-top: 0vh;
+  width: 45vw;
+  height: 4vh;
+}.second-nav ul li {
+  font-family: noto-sans-light;
+  color: #89cce5;
+}
+.second-nav ul li a {
+  font-size: 0.9em;
+  margin-left: 0.1vw;
+}
+/* SWEET PINK STRAWBERRY SECTION */
+.strawberry-header {
+  background-color: #FDBCD1;
+  width: 71vw;
+  height: 4.5vh;
+  margin-top: 16vh;
+  margin-right: auto;
+  margin-left: auto;
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.9em;
+  text-align: start;
+  padding-left: 0.5vw;
+
+}
+.story-container-1 {
+  width: 71vw;
+  height: 47vh;
+  margin-top: 1.5vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20vh;
+  background-color: #FFFFFF;
+}
+.icecream-img-container-1 {
+  background-color: #FDBCD1;
+  width: 35vw;
+  height: 45vh;
+  float: left;
+}
+.icecream-img-1 {
+  width: 15vw;
+  height: 28vh;
+  margin: 8.5vh auto;
+  background-image: url(../img/flavours-section/strawberry.png);
+  background-size: contain;
+}
+.icecream-story-1 {
+  background-color: yellow;
+  width: 35vw;
+  height: 46vh;
+  float: right;
+}
+.icecream-story-1 p {
+  background-color: #FFFFFF;
+  width: 35vw;
+  height: 46vh;
+  margin: 0 auto;
+  text-align: center; 
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 4vh;
+  padding: 0.5em;
+}
+/* BUBBLE BLUEBERRY SECTION */
+.blueberry-header {
+  background-color: #9F96FF;
+  width: 71vw;
+  height: 4.5vh;
+  margin-top: 16vh;
+  margin-right: auto;
+  margin-left: auto;
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.9em;
+  text-align: start;
+  padding-left: 0.5vw;
+
+}
+.story-container-2 {
+  width: 71vw;
+  height: 47vh;
+  margin-top: 1.5vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20vh;
+  background-color: #FFFFFF;
+}
+.icecream-img-container-2 {
+  background-color: #9F96FF;
+  width: 35vw;
+  height: 45vh;
+  float: left;
+}
+.icecream-img-2 {
+  width: 15vw;
+  height: 28vh;
+  margin: 8.5vh auto;
+  background-image: url(../img/flavours-section/Blueberry.png);
+  background-size: contain;
+}
+.icecream-story-2 {
+  width: 35vw;
+  height: 46vh;
+  float: right;
+}
+.icecream-story-2 p {
+  background-color: #FFFFFF;
+  width: 35vw;
+  height: 46vh;
+  margin: 0 auto;
+  text-align: center; 
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 4vh;
+  padding: 0.5em;
+}
+/* SUNNY BANANA SECTION */
+.banana-header {
+  background-color: #FBE9CF;
+  width: 71vw;
+  height: 4.5vh;
+  margin-top: 16vh;
+  margin-right: auto;
+  margin-left: auto;
+  color: #353432;
+  font-family: noto-sans-regular;
+  font-size: 1.9em;
+  text-align: start;
+  padding-left: 0.5vw;
+
+}
+.story-container-3 {
+  width: 71vw;
+  height: 47vh;
+  margin-top: 1.5vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20vh;
+  background-color: #FFFFFF;
+}
+.icecream-img-container-3 {
+  background-color: #FBE9CF;
+  width: 35vw;
+  height: 46vh;
+  float: left;
+}
+.icecream-img-3 {
+  width: 15vw;
+  height: 28vh;
+  margin: 8.5vh auto;
+  background-image: url(../img/flavours-section/Sunny-Banana.png);
+  background-size: contain;
+}
+.icecream-story-3 {
+  width: 35vw;
+  height: 46vh;
+  float: right;
+}
+.icecream-story-3 p {
+  background-color: #FFFFFF;
+  width: 35vw;
+  height: 46vh;
+  margin: 0 auto;
+  text-align: center; 
+  font-size: 1.1em;
+  font-weight: 500;
+  line-height: 4vh;
+  padding: 0.5em;
+}
+
+
+
